@@ -84,7 +84,7 @@ function handleCommentPost() {
 document.querySelector('.like-button').addEventListener('click', handleLike);
 document.querySelector('.dislike-button').addEventListener('click', handleDislike);
 document.querySelector('.share-button').addEventListener('click', handleShare);
-document.querySelector('.comment-button').addEventListener('click', handleComment);
+
 
 // Handle comment like and dislike buttons
 document.querySelectorAll('.like-comment-button').forEach(function (button) {
