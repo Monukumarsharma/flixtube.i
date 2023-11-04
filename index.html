@@ -1,41 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Flixtube</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <!-- Add your logo here -->
-            <img src="logo.png" alt="Website Switcher Logo">
-        </div>
-        <div class="search-bar">
-            <!-- Add your search bar here -->
-            <input type="text" placeholder="Search...">
-            <button>Search</button>
-        </div>
-    </header>
-   
+
+<!-- Add this div to display the like and dislike counts -->
+<div class="actions">
+    <button class="like-button">Like</button>
+    <span class="like-count">0</span>
+    <button class="dislike-button">Dislike</button>
+    <span class="dislike-count">0</span>
+    <button class="share-button">Share</button>
+    <button class="comment-button">Comment</button>
+</div>
+
+<!-- Add this section for typing and posting comments -->
+<div class="comment-section">
+    <textarea id="comment-text" placeholder="Type your comment"></textarea>
+    <button id="post-comment-button">Post Comment</button>
+</div>
+<div class="comments">
+    <!-- Comments will be displayed here -->
+</div>
+<!-- Add elements to display like, dislike, and comment counts -->
+<div class="counts">
+    <span class="comment-count">0 Comments</span>
+</div>
 
 
-    <div class="thumbnails">
-        <div class="thumbnail">
-            <img src="gg.PNG" alt="Website 1" onclick="loadWebsite('https://hurl-party-i-256.site/play/tt15441054')" title="Watch ">
-            <h3>gadar 2</h3>
-             <div class="thumbnails">
-        <div class="thumbnail">
-            <img src="gg.PNG" alt="Website 1" onclick="loadWebsite('https://hurl-party-i-256.site/play/tt15441054')" title="Watch ">
-            <h3>gadar 2</h3>
-            
-               
-        </div>
-         
-    </div>
-        <!-- Add more thumbnails as needed -->
-    </div>
     <script src="script.js"></script>
 </body>
 </html>
